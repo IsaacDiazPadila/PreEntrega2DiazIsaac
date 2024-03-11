@@ -19,7 +19,7 @@ header .navbar {
 }
 
 .jumbotron {
-    background-image: url(/img/Bajaj-NS-125-Rouser-Pulsar-9-1.jpg);
+    background-image: url(../img/Bajaj-NS-125-Rouser-Pulsar-9-1.jpg);
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -118,42 +118,42 @@ footer {
 /*media queries inicia*/
 
 .item1 {
-    background-image: url(/img/1.jpg.jpg);
+    background-image: url(../img/1.jpg.jpg);
     border-radius: 15px;
 }
 
 .item2 {
-    background-image: url(/img/2.jpg.jpg);
+    background-image: url(../img/2.jpg.jpg);
     border-radius: 15px;
 }
 
 .item3 {
-    background-image: url(/img/3.jpg.webp);
+    background-image: url(../img/3.jpg.webp);
     border-radius: 15px;
 }
 
 .item4 {
-    background-image: url(/img/4.jpg.jpg);
+    background-image: url(../img/4.jpg.jpg);
     border-radius: 15px;
 }
 
 .item5 {
-    background-image: url(/img/5.jpg.jpg);
+    background-image: url(../img/5.jpg.jpg);
     border-radius: 15px;
 }
 
 .item6 {
-    background-image: url(/img/6.jpg.jpg);
+    background-image: url(../img/6.jpg.jpg);
     border-radius: 15px;
 }
 
 .item7 {
-    background-image: url(/img/7.1.jpg.jpg);
+    background-image: url(../img/7.1.jpg.jpg);
     border-radius: 15px;
 }
 
 .item8 {
-    background-image: url(/img/mujer-poniendose-casco-viaje-carretera-motocicleta_23-2149023868.avif);
+    background-image: url(../img/mujer-poniendose-casco-viaje-carretera-motocicleta_23-2149023868.avif);
     border-radius: 15px;
 }
 
@@ -229,42 +229,42 @@ footer {
 }
 
 #logo1 {
-    background-image: url(/img/logo\ bmw.webp);
+    background-image: url(../img/logo\ bmw.webp);
     border-radius: 15px;
 }
 
 #logo2 {
-    background-image: url(/img/Honda-Logo.png);
+    background-image: url(../img/Honda-Logo.png);
     border-radius: 15px;
 }
 
 #logo3 {
-    background-image: url(/img/logo\ suzuki.webp);
+    background-image: url(../img/logo\ suzuki.webp);
     border-radius: 15px;
 }
 
 #logo4 {
-    background-image: url(/img/Logomarca2.png);
+    background-image: url(../img/Logomarca2.png);
     border-radius: 15px;
 }
 
 #logo5 {
-    background-image: url(/img/Logo\ royal.webp);
+    background-image: url(../img/Logo\ royal.webp);
     border-radius: 15px;
 }
 
 #logo6 {
-    background-image: url(/img/download.png);
+    background-image: url(../img/download.png);
     border-radius: 15px;
 }
 
 #logo7 {
-    background-image: url(/img/hero.png);
+    background-image: url(../img/hero.png);
     border-radius: 15px;
 }
 
 #logo8 {
-    background-image: url(/img/s-l400.jpg);
+    background-image: url(../img/s-l400.jpg);
     border-radius: 15px;
 }
 
@@ -280,42 +280,42 @@ video {
 }
 
 #img1 {
-    background-image: url(/img/Baul\ 1.jpg.jpg);
+    background-image: url(../img/Baul\ 1.jpg.jpg);
     border-radius: 15px;
 }
 
 #img2 {
-    background-image: url(/img/Defensas\ 2.jpg.webp);
+    background-image: url(../img/Defensas\ 2.jpg.webp);
     border-radius: 15px;
 }
 
 #img3 {
-    background-image: url(/img/Equipamento.jpg.webp);
+    background-image: url(../img/Equipamento.jpg.webp);
     border-radius: 15px;
 }
 
 #img4 {
-    background-image: url(/img/Exploradora.jpg.webp);
+    background-image: url(../img/Exploradora.jpg.webp);
     border-radius: 15px;
 }
 
 #img5 {
-    background-image: url(/img/Luces.jpg.webp);
+    background-image: url(../img/Luces.jpg.webp);
     border-radius: 15px;
 }
 
 #img6 {
-    background-image: url(/img/parabrisa.jpg.webp);
+    background-image: url(../img/parabrisa.jpg.webp);
     border-radius: 15px;
 }
 
 #img7 {
-    background-image: url(/img/portacilular.jpg.jpg);
+    background-image: url(../img/portacilular.jpg.jpg);
     border-radius: 15px;
 }
 
 #img8 {
-    background-image: url(/img/Portaequi.jpg.webp);
+    background-image: url(../img/Portaequi.jpg.webp);
     border-radius: 15px;
 }
 
