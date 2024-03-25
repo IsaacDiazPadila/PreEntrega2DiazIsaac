@@ -1,0 +1,100 @@
+/*Inicio de Link Ficha Tecnica*/
+
+.container {
+    height: 50vh;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+#logo1 {
+    background-image: url(../img/logo\ bmw.webp);
+    border-radius: 15px;
+}
+
+#logo2 {
+    background-image: url(../img/Honda-Logo.png);
+    border-radius: 15px;
+}
+
+#logo3 {
+    background-image: url(../img/logo\ suzuki.webp);
+    border-radius: 15px;
+}
+
+#logo4 {
+    background-image: url(../img/Logomarca2.png);
+    border-radius: 15px;
+}
+
+#logo5 {
+    background-image: url(../img/Logo\ royal.webp);
+    border-radius: 15px;
+}
+
+#logo6 {
+    background-image: url(../img/download.png);
+    border-radius: 15px;
+}
+
+#logo7 {
+    background-image: url(../img/hero.png);
+    border-radius: 15px;
+}
+
+#logo8 {
+    background-image: url(../img/s-l400.jpg);
+    border-radius: 15px;
+}
+
+@media only screen and (min-width: 480px) {
+    .galeria {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 200px);
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .galeria {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(4, 200px);
+    }
+
+    #logo2 {
+        grid-column: 2/4;
+        grid-row: 1/2;
+    }
+
+    #logo4 {
+        grid-column: 1/2;
+        grid-row: 2/4;
+    }
+
+    #logo5 {
+        grid-column: 3/4;
+        grid-row: 2/4;
+    }
+
+    #logo7 {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    #logo8 {
+        grid-column: 2/3;
+        grid-row: 3/5;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .galeria {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 200px 200px;
+    }
+}
+
+.boton {
+    height: 100px;
+}
+
+/*Fin de Linf Ficha Tecnica*/

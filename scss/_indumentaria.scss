@@ -1,0 +1,133 @@
+/*Inicio Indumentaria*/
+
+
+.galeria {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 200px);
+    padding: 20px;
+    grid-gap: 20px;
+}
+
+.item {
+    border: 2px solid black;
+    background-color: #ffff;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.9;
+
+    &:hover {
+        transform: scale(1.09);
+    }
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.redes {
+    margin-top: 20px;
+
+    a {
+        color: brown;
+        text-decoration: none;
+        letter-spacing: 15px;
+        font-size: 30px;
+    }
+}
+
+/*media queries inicia*/
+
+.item1 {
+    background-image: url(../img/1.jpg.jpg);
+    border-radius: 15px;
+}
+
+.item2 {
+    background-image: url(../img/2.jpg.jpg);
+    border-radius: 15px;
+}
+
+.item3 {
+    background-image: url(../img/3.jpg.webp);
+    border-radius: 15px;
+}
+
+.item4 {
+    background-image: url(../img/4.jpg.jpg);
+    border-radius: 15px;
+}
+
+.item5 {
+    background-image: url(../img/5.jpg.jpg);
+    border-radius: 15px;
+}
+
+.item6 {
+    background-image: url(../img/6.jpg.jpg);
+    border-radius: 15px;
+}
+
+.item7 {
+    background-image: url(../img/7.1.jpg.jpg);
+    border-radius: 15px;
+}
+
+.item8 {
+    background-image: url(../img/8.jpg.webp);
+    border-radius: 15px;
+}
+
+@media only screen and (min-width: 480px) {
+    .galeria {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 200px);
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .galeria {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(4, 200px);
+    }
+
+    .item2 {
+        grid-column: 2/4;
+        grid-row: 1/2;
+    }
+
+    .item4 {
+        grid-column: 1/2;
+        grid-row: 2/4;
+    }
+
+    .item5 {
+        grid-column: 3/4;
+        grid-row: 2/4;
+    }
+
+    .item7 {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .item8 {
+        grid-column: 2/3;
+        grid-row: 3/5;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .galeria {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 200px 200px;
+    }
+}
+
+/*Media queries fin*/
+
+/*Fin Indumentaria*/

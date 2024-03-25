@@ -1,0 +1,15 @@
+
+header .navbar {
+    min-height: 120px;
+    background-color: rgba(165, 42, 42, 0.752);
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    font-family: $font1;
+}
+
+.nav-link {
+    color: aliceblue;
+}

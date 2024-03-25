@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: $color-vinotinto;
+    background-image: linear-gradient(to right, rgba(223, 89, 89, 0.882), rgb(228, 176, 176));
+}

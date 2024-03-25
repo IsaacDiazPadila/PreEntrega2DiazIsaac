@@ -1,0 +1,68 @@
+@mixin anclas {
+    text-decoration: none;
+    text-shadow: black;
+}
+
+.jumbotron {
+    background-image: url(../img/Bajaj-NS-125-Rouser-Pulsar-9-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: grid;
+    place-items: center;
+}
+
+.call {
+    background-color: rgba(255, 255, 255, 0.685);
+    margin-top: 100px;
+    width: 70%;
+    padding: 20px;
+    border: 5px solid black;
+    text-align: center;
+
+    a {
+        background-color: $color-vinotinto;
+        @include anclas;
+        padding: 10px 20px;
+
+        &:hover {
+            background-color: $color-crema;
+            color: $color-vinotinto;
+        }
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+}
+
+h5 a {
+    @include anclas;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: $color-vinotinto;
+    padding: 10px 20px;
+
+    &:hover {
+        background-color: $color-crema;
+        color: $color-vinotinto;
+    }
+}
+
+h2 {
+    margin-bottom: 0;
+    padding: 10px;
+    background-color: rgba(165, 42, 42, 0.879);
+    font-family: $font1;
+}
+
+.curiosidades article {
+    border: 20px solid white;
+}
+
+.what {
+    height: 40px;
+    width: 40px;
+    background-color: $color-vinotinto;
+    position: fixed;
+}
